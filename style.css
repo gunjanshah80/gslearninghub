@@ -17,4 +17,11 @@ body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#111827}
 .avatar{width:130px;height:130px;border-radius:50%;background:linear-gradient(135deg,#1f4e79,#ffd43b);display:flex;align-items:center;justify-content:center;color:white;font-size:40px;font-weight:bold}
 .table{width:100%;border-collapse:collapse;background:white;border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(15,23,42,.08)}
 .table th{background:#1f4e79;color:white;text-align:left;padding:14px}.table td{padding:14px;border-bottom:1px solid #e5e7eb}
+.gallery-img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
 @media(max-width:720px){.nav{display:block}.nav a{display:inline-block;margin:8px 12px 0 0}.hero h1{font-size:36px}}

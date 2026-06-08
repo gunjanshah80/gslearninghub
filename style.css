@@ -43,4 +43,54 @@ body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#111827}
 .gallery-grid img:hover {
     transform: scale(1.05);
 }
+/* Currently Running Badge */
+
+.live-badge {
+    background: #ef4444;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    animation: pulse 1.5s infinite;
+}
+
+/* Registration Open Badge */
+
+.upcoming-badge {
+    background: #10b981;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Highlight Cards */
+
+.featured-workshop {
+    border: 3px solid #ffd43b;
+    box-shadow: 0 0 18px rgba(255,212,59,0.4);
+}
+
+.upcoming-workshop {
+    border: 3px solid #10b981;
+    box-shadow: 0 0 18px rgba(16,185,129,0.3);
+}
+
+/* Pulse Effect */
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(239,68,68,0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 12px rgba(239,68,68,0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(239,68,68,0);
+    }
+}
 @media(max-width:720px){.nav{display:block}.nav a{display:inline-block;margin:8px 12px 0 0}.hero h1{font-size:36px}}

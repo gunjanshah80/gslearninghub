@@ -99,4 +99,37 @@ body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#111827}
         box-shadow: 0 0 0 0 rgba(239,68,68,0);
     }
 }
+.register-btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(37, 99, 235, 0.3);
+}
+.view-btn {
+    display: inline-block;
+    background: #f3f4f6;
+    color: #1f2937;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 12px;
+    border: 2px solid #d1d5db;
+    transition: all 0.3s ease;
+}
+
+.view-btn:hover {
+    background: #e5e7eb;
+    transform: translateY(-2px);
+}
 @media(max-width:720px){.nav{display:block}.nav a{display:inline-block;margin:8px 12px 0 0}.hero h1{font-size:36px}}

@@ -256,8 +256,13 @@ body {
 	box-shadow: 0 0 18px rgba(255, 212, 59, 0.4);
 }
 
-.upcoming-workshop {
+.register-workshop {
 	border: 3px solid #10b981;
+	box-shadow: 0 0 18px rgba(16, 185, 129, 0.3);
+}
+
+.upcoming-workshop {
+	border: 3px solid #f59e0b;
 	box-shadow: 0 0 18px rgba(16, 185, 129, 0.3);
 }
 

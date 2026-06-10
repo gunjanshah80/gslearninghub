@@ -333,3 +333,92 @@ body {
   margin-top: 18px;
   font-style: italic;
 }
+.contact-section {
+          max-width: 900px;
+          margin: 50px auto;
+          padding: 30px;
+}
+
+.contact-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card h1 {
+  color: #0b3d75;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.contact-card p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-btn {
+  background: #0b3d75;
+  color: #ffffff;
+  border: none;
+  padding: 13px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #082f5a;
+}
+
+.contact-note {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    margin: 25px auto;
+    padding: 18px;
+  }
+
+  .contact-card {
+    padding: 24px;
+  }
+
+  .contact-card h1 {
+    font-size: 26px;
+  }
+}

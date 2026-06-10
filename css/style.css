@@ -327,8 +327,9 @@ body {
 	}
 }
 .copyright-note {
-  font-size: 13px;
-  color: #777777;
+  font-weight: bold;
+  font-size: 10px;
+  color: #6DE2F2;
   margin-top: 18px;
   font-style: italic;
 }

@@ -74,6 +74,14 @@ body {
 	border-top: 5px solid #3776ab
 }
 
+.sub-card {
+	background: #DFF0F2;
+	padding: 24px;
+	border-radius: 16px;
+	box-shadow: 0 8px 24px rgba(20, 23, 20, .08);
+	border-top: 5px solid #3776ab
+}
+
 .card h3 {
 	color: #1f4e79;
 	margin-top: 0
@@ -426,4 +434,8 @@ body {
   .contact-card h1 {
     font-size: 26px;
   }
+}
+.card li {
+    margin-bottom: 10px;
+    line-height: 1.6;
 }

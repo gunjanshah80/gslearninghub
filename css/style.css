@@ -326,3 +326,9 @@ body {
 		font-size: 36px
 	}
 }
+.copyright-note {
+  font-size: 13px;
+  color: #777777;
+  margin-top: 18px;
+  font-style: italic;
+}

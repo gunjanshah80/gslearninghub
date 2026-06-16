@@ -439,3 +439,28 @@ body {
     margin-bottom: 10px;
     line-height: 1.6;
 }
+
+.gallery-box {
+    max-width: 450px;
+    background: #A5D8F2;
+    border: 1px solid #dbe3ff;
+    padding: 22px;
+    border-radius: 14px;
+    text-align: center;
+    margin: 30px 0;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.10);
+}
+
+.gallery-btn {
+    display: inline-block;
+    background: #0b3d75;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gallery-btn:hover {
+    background: #082f5a;
+}

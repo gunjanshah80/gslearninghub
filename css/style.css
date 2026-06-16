@@ -50,7 +50,7 @@ body {
 }
 
 .section {
-	padding: 45px 8%
+	padding: 25px 8%
 }
 
 .section h2 {
@@ -465,13 +465,22 @@ body {
     background: #082f5a;
 }
 
-.team-grid {
+.program-credits {
+  margin: 25px 0;
+}
+
+.program-credits h2 {
+  color: #0b3d75;
+  margin-bottom: 20px;
+}
+
+.credits-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
 
-.team-card {
+.credit-card {
   background: #f8f9ff;
   border: 1px solid #dbe3ff;
   border-radius: 14px;
@@ -479,18 +488,18 @@ body {
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
-.team-card h3 {
+.credit-card h3 {
   color: #0b3d75;
   margin-bottom: 10px;
 }
 
-.team-card p {
+.credit-card p {
   margin: 6px 0;
   color: #444;
 }
 
 @media (max-width: 768px) {
-  .team-grid {
+  .credits-grid {
     grid-template-columns: 1fr;
   }
 }

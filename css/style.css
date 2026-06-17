@@ -509,3 +509,17 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.courses-details {
+  background: #AADEF2;
+  border: 1px solid #dbe3ff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
